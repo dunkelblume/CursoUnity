@@ -1,9 +1,45 @@
 fileFormatVersion: 2
 guid: 94d1f28a5aa0ed94b8d3bd15086f4b63
 TextureImporter:
-  fileIDToRecycleName: {}
+  internalIDToNameTable:
+  - first:
+      213: -5047484281555416397
+    second: UIHealthFrame
+  - first:
+      213: 5326287119372293863
+    second: UIHealthFrame
+  - first:
+      213: 2154651366485273264
+    second: UIHealthFrame_2
+  - first:
+      213: -2794606930186418174
+    second: UIHealthFrame_3
+  - first:
+      213: 2381904416027673334
+    second: UIHealthFrame_4
+  - first:
+      213: -7567137496774473664
+    second: UIHealthFrame_5
+  - first:
+      213: 5505885983415492478
+    second: UIHealthFrameTop
+  - first:
+      213: -5047484281555416397
+    second: UIHealthFrameTop
+  - first:
+      213: -5047484281555416397
+    second: UIHealthFrame_Portrait
+  - first:
+      213: 5326287119372293863
+    second: UIHealthFrame_Bar
+  - first:
+      213: -5858345379944282157
+    second: UIHealthFrame_Portrait
+  - first:
+      213: -7904570664585264561
+    second: UIHealthFrame_Bar
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -40,7 +76,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -57,8 +93,9 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -69,17 +106,86 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: UIHealthFrame_Portrait
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 566
+        height: 615
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7ced07ae9f2bea0800000000000000
+      internalID: -5858345379944282157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIHealthFrame_Bar
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 176
+        width: 770
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 51, z: 59, w: 46}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f420c6b5cd25d4290800000000000000
+      internalID: -7904570664585264561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
     spriteID: a7a3b1520c2838d4cb7bef7d125c11ec
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
